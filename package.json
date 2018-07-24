@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
-    "package": "electron-packager . electron --platform=mas --arch=x64 --electron-version=2.0.5 --overwrite --ignore=node_modules --ignore=.gitignore"
+    "package": "electron-packager . electron --out out --platform=mas --arch=x64 --electron-version=2.0.5 --overwrite --ignore=node_modules --ignore=.gitignore"
   },
   "author": "young",
   "license": "ISC",
